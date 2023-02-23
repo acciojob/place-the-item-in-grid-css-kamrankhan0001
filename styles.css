@@ -1,6 +1,6 @@
 .holder{
     display:grid;
-	grid-template-rows: repeat (2, 100px);
+	grid-template-rows: repeat (2, 1fr);
 	grid-template-columns: repeat (2, 100px)
     
 }
@@ -8,6 +8,7 @@
 .item1 {
   grid-row: 1 / 2; /* places the item in the first row */
   grid-column: 1 / 2; /* places the item in the first column */
+
 }
 
 .item2 {
