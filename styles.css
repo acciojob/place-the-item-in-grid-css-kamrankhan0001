@@ -2,13 +2,32 @@
     display:grid;
 	grid-template-rows: repeat (2, 200px);
 	grid-template-columns: repeat (2, 200px)
+    width:200px;
+	height:200px;
+}
+.item1 {
+  grid-row: 1 / 2; /* places the item in the first row */
+  grid-column: 1 / 2; /* places the item in the first column */
+}
 
+.item2 {
+  grid-row: 1 / 2; /* places the item in the first row */
+  grid-column: 2 / 3; /* places the item in the second column */
 }
-.item{
-	background-color:blue;
-	border:2px solid yellow;
-	padding:20px;
-	
-	
+
+.item3 {
+  grid-row: 2 / 3; /* places the item in the second row */
+  grid-column: 1 / 2; /* places the item in the first column */
 }
+
+.item4 {
+  grid-row: 2 / 3; /* places the item in the second row */
+  grid-column: 2 / 3; /* places the item in the second column */
+}
+
+
+
+
+
+
 /* Your CSS Code here. */
