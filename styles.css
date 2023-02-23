@@ -1,9 +1,9 @@
 .holder{
     display:grid;
-	grid-template-rows: repeat (2fr, 200px);
-	grid-template-columns: repeat (2fr, 200px)
-	width:200px;
-	height:200px;
+	grid-template-rows: repeat (2, 200px);
+	grid-template-columns: repeat (2, 200px)
+	grid-row:200px;
+	grid-column:200px;
 	background-color:blue;
 	gap:10px;
 }
